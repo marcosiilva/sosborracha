@@ -17,13 +17,18 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--cor-fundo);
     font-family: var(--font);
     min-height: 100vh;
     color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
 }
 
+main {
+    flex: 1;
+}
 .cabecalho{
     display: flex;
     justify-content: space-between;

@@ -88,7 +88,7 @@ h2 {
 }
 
 .texto {
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 1.6;
   color: var(--cor-branco);
   max-width: 320px;

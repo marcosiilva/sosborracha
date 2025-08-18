@@ -22,8 +22,10 @@ body{
     font-family: var(--font);
     min-height: 100vh;
     color: var(--cor-branco);
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .cabecalho{
     display: flex;
@@ -137,9 +139,8 @@ body{
 .rodape {
     width: 100%;
     background-color: var(--cor-cinza);
-    margin-top: 4rem;
+    margin-top: auto;
     padding: 1rem;
-    position: absolute;
 }
 
 .rodape ul{

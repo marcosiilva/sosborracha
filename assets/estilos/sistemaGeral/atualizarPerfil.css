@@ -86,6 +86,8 @@ form {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  max-width: 530px;
+  margin: 0 auto;
 }
 
 input {
@@ -95,7 +97,10 @@ input {
   padding: 12px;
   font-size: 14px;
   color: var(--cor-branco);
+  width: 100%; 
+  box-sizing: border-box;
 }
+
 
 input::placeholder {
   color: #bbb;

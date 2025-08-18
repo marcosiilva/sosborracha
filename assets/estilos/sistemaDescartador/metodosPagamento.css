@@ -17,11 +17,18 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--cor-fundo);
     font-family: var(--font);
     min-height: 100vh;
     color: var(--cor-branco);
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
 }
 
 .cabecalho{
@@ -166,7 +173,8 @@ body{
 
 .botoes {
   display: flex;
-  justify-content: space-around;
+  justify-content: center; 
+  gap: 2rem;               
   margin-top: 2rem;
 }
 

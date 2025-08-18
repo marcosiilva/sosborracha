@@ -22,6 +22,7 @@ body{
     font-family: var(--font);
     min-height: 100vh;
     color: var(--cor-branco);
+    text-align: center;
 }
 
 .cabecalho{
@@ -66,10 +67,11 @@ body{
 }
 
 .produtos {
-  background-color: var(--cor-cinza);
-  padding: 1rem;
-  border-radius: 10px;
-  margin-top: 1rem;
+  display: inline-block;   
+  padding: 25px;           
+  margin: 0 auto;          
+  border-radius: 8px;
+  background-color: #111;  
 }
 
 .produtos__titulo {
@@ -78,13 +80,17 @@ body{
   margin-bottom: 1rem;
   font-weight: bold;
   text-align: center;
+  
 }
 
 .tabela {
-  width: 100%;
+  width: 850px;              
+  max-width: 540px;         
+  margin: 0 auto;           
   border-collapse: collapse;
   background-color: transparent;
   color: var(--cor-branco);
+  
 }
 
 .tabela th {

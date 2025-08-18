@@ -78,8 +78,10 @@ h2 {
 .opcoes {
   background-color: #111;
   border-radius: 16px;
-  padding: 8px;
-  margin-top: 20px;
+  padding: 12px 16px;
+  margin: 20px auto;   
+  width: 85%;          
+  max-width: 750px;    
 }
 
 .opcao {

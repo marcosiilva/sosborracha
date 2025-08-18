@@ -88,8 +88,8 @@ h2 {
 }
 
 .descricao {
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 18px; 
+  line-height: 1.8; 
   color: var(--cor-branco);
   max-width: 300px;
   margin: 0 auto;

@@ -20,10 +20,12 @@
 }
 
 body {
-  background-color: var(--cor-fundo);
-  font-family: var(--font);
-  min-height: 100vh;
-  color: var(--cor-branco);
+    background-color: var(--cor-fundo);
+    font-family: var(--font);
+    min-height: 100vh;
+    color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
 }
 
 .cabecalho {
@@ -171,7 +173,7 @@ body {
 .rodape {
   width: 100%;
   background-color: var(--cor-cinza);
-  margin-top: 4rem;
+  margin-top: auto;
   padding: 1rem;
   bottom: 0;
 }

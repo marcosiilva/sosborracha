@@ -67,11 +67,12 @@ h3 {
 
 .conteudo {
   text-align: center;
-  margin: 40px 0;
+  margin: 55px auto; 
+  max-width: 550px; 
 }
 
 .ilustracao {
-  width: 150px;
+  width: 255px;
   margin-bottom: 20px;
 }
 
@@ -84,7 +85,7 @@ h2 {
 .contato-box {
   border: 1px solid var(--cor-verde);
   border-radius: 14px;
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
